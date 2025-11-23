@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+:root{
+	background-color: rgb(135, 206, 235);
+}
+div :first-child{
+	background-color: black;
+	color: white;
+}
+div :last-child{
+	color: red;
+}
+li{
+	background-color: gray;
+}
+ul :nth-child(odd){
+	background-color: white;
+}
+ul :nth-child(3){
+	background-color: pink;
+}
+ul :first-child{
+	font-size: 22px;
+}
+ul :last-child{
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
